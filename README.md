@@ -27,7 +27,10 @@ Comando de instalação: npm install
 * swiper
 * typescript
 
---- Back server:
+--- Back server: 
+Código do servidor disponível no github: https://github.com/GuilhermeSchilling/pontoGoServer
+npm install
+
 * axios
 * express
 * node
