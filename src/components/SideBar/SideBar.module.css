@@ -1,0 +1,55 @@
+.container {
+    width: 180px;
+    height: 100%;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    box-shadow: 1px 1px  #20292E4D;
+    
+}
+
+.logotype {
+    width: 134px;
+    height: 31.17px;
+
+}
+
+.topbox {
+    height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashbox {
+    width: 180px;
+    height: 103px;
+    border-top: 1px solid #20292E4D;
+    border-bottom: 1px solid #20292E4D;
+    border-left: 4px solid var(--principal-color);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.exitbox {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    bottom: 0;
+    position: fixed;
+}
+
+.exit{
+    margin-bottom: 3px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+

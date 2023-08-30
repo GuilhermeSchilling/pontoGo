@@ -1,0 +1,68 @@
+.container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: url(../../Images/Menu/Reticule.png), url(../../Images/Menu/Rectangle\ 1.png);
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    cursor: pointer;
+    transition: all 0.5s ease;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.header{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.navcontainer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+
+.title{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.desc{
+    color: var(--secundary-color, #8A53FF);
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 10px;
+}
+
+.homebutton{
+    margin-top: 50px;
+    border-radius: 5px;
+    background: var(--secundary-color, #8A53FF);
+    width: 160px;
+    height: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: Poppins;
+    margin-right: 15px;
+    transition: all 0.5s ease;
+    &:hover{
+        transform: scale(1.1);
+    }
+}

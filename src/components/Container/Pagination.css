@@ -1,0 +1,23 @@
+.pagination button {
+    width: 30px;
+    height: 30px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: transparent;
+    color: #20292E4D;
+    background-color: transparent;
+    border: #20292E4D 1px solid;
+}
+
+.pagination button.active {
+    font-weight: 900;
+    border-color: var(--grey);
+    background: transparent;
+    color: black;
+}

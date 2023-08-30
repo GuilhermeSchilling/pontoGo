@@ -1,0 +1,145 @@
+.container {
+    margin-left: 181px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background-color: #F2F2F2;
+    filter: var(--blur);
+    position: absolute;
+    width:100%;
+    height: 100%;
+}
+
+.titles {
+    display: flex;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+.title {
+    margin-right: 17.5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+
+.xcancelbox {
+    margin-left: 85%;
+    padding-top: 5%;
+}
+
+.xtocancel {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+}
+
+.clock {
+    width: 100px;
+    height: 100px;
+}
+
+.registertitle {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #20292E;
+    margin-top: 20px;
+}
+
+.registerhour {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    color: var(--principal-color);
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.registerdate {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: var(--principal-color);
+    margin-bottom: 15px;
+    margin-top: 2px;
+}
+
+.confirmbutton {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: var(--principal-color);
+    color: var(--white);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.cancelbutton {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px;
+    border: var(--principal-color) 1px solid;
+    color: var(--principal-color);
+    cursor: pointer;
+}
+
+.registerbutton {
+    background-color: var(--principal-color);
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: var(--white);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    justify-content: center;
+}
+
+.modaloverlay {
+    backdrop-filter: blur(5px) brightness(0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalcontent {
+    width: 400px;
+    height: 477px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+}

@@ -1,0 +1,294 @@
+.boxall{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.people {
+    width: 100%;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 585px;
+    height: 829px;
+    margin-right: 20vh;
+}
+
+.strong {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--principal-color);
+}
+
+.weak {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37.5px;
+    text-align: center;
+    color: var(--principal-color);
+}
+
+.login {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--principal-color);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+
+.enterbutton {
+    background-color: var(--principal-color);
+    height: 50px;
+    width: 400px;
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.lostpassword {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: var(--principal-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.inputemail {
+    border: 1px solid #20292E4D;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 25px;
+    height: 45px;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.inputpassword {
+    border: 1px solid #20292E4D;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 45px;
+    align-items: center;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.section {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.loginbox {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px;
+
+}
+
+.eyepassword {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.confirmbutton {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: var(--principal-color);
+    color: var(--white);
+    margin-bottom: 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.cancelbutton {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px;
+    border: var(--principal-color) 1px solid;
+    color: var(--principal-color);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 60px;
+    padding-top: 10px;
+}
+
+.titlestext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.modaloverlay {
+    backdrop-filter: blur(5px) brightness(0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalcontent {
+    width: 400px;
+    height: 477px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+
+}
+
+.xcancelbox {
+    right: 0;
+    position: absolute;
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.xbutton {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+}
+
+.email {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    justify-content: center;
+    color: var(--principal-color);
+    margin-top: 40px;
+}
+
+.modaltitle {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: black;
+}
+
+
+@media (max-width: 1260px) {
+    .presentation {
+        margin-right: 10%;
+    }
+
+    .people {
+        width: 100%;
+    }
+
+    .titlepng {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1260px) {
+    .presentation {
+        margin-right: 5%;
+    }
+    .peoplebox {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 1060px) {
+    .presentation{
+        display: none;
+    }
+    .loginbox{
+        margin-top: 18%;
+    }
+}

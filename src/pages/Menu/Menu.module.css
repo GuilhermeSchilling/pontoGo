@@ -1,0 +1,759 @@
+::-webkit-scrollbar-track {
+    background-color: var(--secundary-color);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+    border-radius: 10px;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+}
+
+.size {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: url(../../Images/Menu/Reticule.png), url(../../Images/Menu/Rectangle\ 1.png);
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 164px;
+    height: 38.15px;
+    padding-top: 50px;
+    padding-left: 120px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+
+.boxright {
+    right: 0px;
+    text-align: right;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 118px;
+}
+
+.home {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-top: 58px;
+    padding-right: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.plan {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-top: 58px;
+    padding-right: 40px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.loginbutton {
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    width: 160px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    color: var(--principal-color);
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.navcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 3.96px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.subtitlepurple {
+    color: var(--secundary-color, #8A53FF);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 10px;
+    
+}
+
+.subtitles {
+    width: 520px;
+}
+
+.desc {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 476px;
+}
+
+.buybutton {
+    border-radius: 5px;
+    background: var(--secundary-color, #8A53FF);
+    width: 160px;
+    height: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: all 0.5s ease;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.plansbutton {
+    border-radius: 5px;
+    border: 1px solid var(--white, #FFF);
+    mix-blend-mode: luminosity;
+    background: none;
+    width: 160px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: all 0.5s ease;
+    &:hover{
+        transform: scale(1.1);
+    }
+
+}
+
+.textbox {
+    padding-left: 120px;
+    padding-top: 137px;
+}
+
+.navbuttons {
+    display: flex;
+    padding-top: 30px;
+}
+
+.logosbox {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-top: 134px;
+}
+
+.brainny {
+    width: 200px;
+    height: 56px;
+    padding-right: 70px;
+}
+
+.amopet {
+    width: 213.00001525878906px;
+    height: 66.35295104980469px;
+    padding-right: 70px;
+}
+
+.bus {
+    width: 164.9673614501953px;
+    height: 68px;
+    padding-right: 70px;
+}
+
+.gostudy {
+    max-width: 283px;
+    max-height: 74px;
+    padding-right: 70px;
+}
+
+.titlelogo {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 90px;
+}
+
+.subtitlelogo {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 641px;
+}
+
+.cardtitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardplan {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.price {
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+.colab {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8A53FF;
+    margin-bottom: 20px;
+}
+
+
+
+.earnsw {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.earnso {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    opacity: 0.3;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.earnimg {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.earnimg2 {
+    width: 18px;
+    height: 18px;
+}
+
+.buttonbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourcard {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid var(--principal-color);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.fourcardbox {
+    display: none;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.buttoncard{
+    width: 110px;
+    height: 30px;
+    background-color: #8A53FF;
+    border: #8A53FF 1px solid;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: all 0.5s ease;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.buttonboxnew{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.5px solid #8953ff49;
+    border-bottom: 0.5px solid #8953ff49;
+    margin-bottom: 14px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.socialimg {
+    background-color: white;
+    width: 60px;
+    border-radius: 16px;
+    height: 60px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.linkponto {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.linkp {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.finalgo {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line {
+    width: 39%;
+    height: 0.4px;
+
+    background-color: #8953ff49;
+}
+
+.subfooter {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 60px;
+}
+
+.footer {
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 1360px) {
+    .line {
+        width: 33%;
+    }
+
+    .principalsize {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1280px) {
+
+    .sizelogo {
+        width: 100%;
+    }
+
+    .brainny {
+        padding-right: 5%;
+    }
+
+    .amopet {
+        padding-right: 5%;
+    }
+
+    .bus {
+        padding-right: 5%;
+    }
+
+    .gostudy {
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navcontainer {
+        flex-direction: column;
+    }
+
+    .textbox{
+        padding-left: 0;
+
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .boxright {
+        padding-right: 20px;
+    }
+
+    .cardplan {
+        font-size: 17px;
+    }
+
+    .price {
+        font-size: 30px;
+        padding-top: 3px;
+        line-height: 30px;
+    }
+
+    .colab {
+        font-size: 13px;
+    }
+
+    .earnsw {
+        line-height: 20px;
+        letter-spacing: 0px;
+        font-size: 13px;
+    }
+
+    .earnso {
+        line-height: 20px;
+        letter-spacing: 0px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 900px) {
+    .line {
+        width: 36%;
+    }
+
+    .finalgo {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 740px){
+    .fourcardbox{
+        display:flex;
+    }
+    .cardplan {
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 20px;
+        padding-top: 3px;
+        line-height: 15px;
+    }
+
+    .colab {
+        font-size: 10px;
+    }
+
+    .earnsw {
+        line-height: 10px;
+        letter-spacing: 0px;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .earnso {
+        line-height: 10px;
+        letter-spacing: 0px;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 670px) {
+    .subtitle {
+        font-size: 30px;
+    }
+
+    .title {
+        font-size: 15px;
+    }
+
+    .subtitlepurple {
+        font-size: 30px;
+    }
+
+    .desc {
+        font-size: 12px;
+        width: 340px;
+    }
+
+    .home {
+        padding-right: 5%;
+    }
+
+    .plan {
+        padding-right: 5%;
+    }
+
+    .titlelogo {
+        font-size: 25px;
+    }
+
+    .subtitlelogo {
+        font-size: 14px;
+        width: 470px;
+    }
+
+    .linkponto {
+        font-size: 14px;
+    }
+
+    .linkp {
+        font-size: 10px;
+    }
+
+    .line {
+        width: 30%;
+    }
+
+    .logos {
+        padding-left: 10px;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .logos {
+        width: 80%;
+    }
+}
+
+@media (max-width: 650px) {
+    .textbox {
+        margin-right: 10px;
+        width: 430px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .subtitles {
+        width: 430px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .boxright {
+        flex-direction: column-reverse;
+        padding-top: 55px;
+    }
+
+    .home {
+        padding-top: 5px;
+    }
+
+    .plan {
+        padding-top: 5px;
+    }
+
+    .loginbutton {
+        margin-top: 5px;
+        width: 110px;
+        height: 30px;
+    }
+
+    .textbox {
+        padding-left: 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 340px;
+    }
+
+    .navbuttons {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buybutton {
+        margin-top: 5px;
+        width: 110px;
+        height: 30px;
+        margin-right: 0;
+    }
+
+    .plansbutton {
+        margin-top: 10px;
+        margin-right: 0;
+        width: 110px;
+        height: 30px;
+    }
+
+    .subtitles {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .subtitle {
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .subtitlepurple {
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .desc {
+        width: 330px;
+        font-size: 10px;
+    }
+
+    .subtitlelogo {
+        font-size: 12px;
+        width: 330px;
+    }
+
+    .line {
+        width: 22%;
+    }
+    
+    .socialimg{
+        margin: 3px;
+    }
+    .logos{
+        display: flex;
+        flex-flow: row wrap;
+        width: 40%;
+        
+    }
+}
