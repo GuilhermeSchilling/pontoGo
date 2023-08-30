@@ -16,6 +16,7 @@ Neste projeto demonstro minhas habilidades com:
 * Typescript
 
 Para executar o projeto é necessário instalação de algumas dependências citadas abaixo:
+Comando de instalação: npm install
 
 --- Front server:
 * react
