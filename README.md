@@ -18,7 +18,8 @@ Neste projeto demonstro minhas habilidades com:
 Para executar o projeto é necessário instalação de algumas dependências citadas abaixo:
 Comando de instalação: npm install
 
---- Front server:
+--- Front server: 
+Para rodar o front utilize npm start
 * react
 * react router dom
 * jest
@@ -28,6 +29,7 @@ Comando de instalação: npm install
 * typescript
 
 --- Back server: 
+Para rodar o server utilize nodemon app.js
 Código do servidor disponível no github: https://github.com/GuilhermeSchilling/pontoGoServer
 npm install
 
